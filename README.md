@@ -1,0 +1,1 @@
+# nuxt-use-async-data
