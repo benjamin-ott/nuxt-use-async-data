@@ -6,6 +6,7 @@
         <NuxtLink to="/">Home</NuxtLink>
         <NuxtLink to="/lazy">Lazy</NuxtLink>
         <NuxtLink to="/not-lazy">Not Lazy</NuxtLink>
+        <NuxtLink to="/hydration-error">Hydration Error</NuxtLink>
       </nav>
     </header>
     <main>
