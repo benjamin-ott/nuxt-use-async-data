@@ -8,6 +8,14 @@
 
     <h2>No hydration error - but data changes on client</h2>
     <p>{{ data }}</p>
+
+    <h2>Math.random Hydration Error</h2>
+    <div>{{ Math.random() }}</div>
+
+    <h2>Math.random WITHOUT Hydration Error</h2>
+    <ClientOnly>
+      <div>{{ Math.random() }}</div>
+    </ClientOnly>
   </div>
 </template>
 
